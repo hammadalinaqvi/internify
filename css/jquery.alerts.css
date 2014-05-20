@@ -1,0 +1,80 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #CCC;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #134159;
+	background: #46BBEA url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(images/info.gif);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(images/info.gif);
+}
+
+#popup_content.confirm {
+	background-image: url(images/important.gif);
+}
+
+#popup_content.prompt {
+	background-image: url(images/help.gif);
+}
+
+#popup_message {
+	/*padding-left: 48px;*/
+	/*color:#333333;*/
+	text-align:center;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+#popup_panel input[type="button"] {
+		color: #0b4158;
+	text-shadow: 0 1px 2px rgba(255,255,255,.55);
+	background: #35a9e3;
+	background-color: #35a9e3;
+	*background-color: #35a9e3;
+	background-image: -webkit-linear-gradient(#72D3F3, #4fc7ee 40%, #35a9e3);
+	background-image:    -moz-linear-gradient(#72D3F3, #4fc7ee 40%, #35a9e3);
+	background-image:     -ms-linear-gradient(#72D3F3, #4fc7ee 40%, #35a9e3);
+	background-image:      -o-linear-gradient(#72D3F3, #4fc7ee 40%, #35a9e3);
+	background-image:         linear-gradient(#72D3F3, #4fc7ee 40%, #35a9e3);
+	background-repeat: repeat-x;
+  border: 1px solid #257da9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff35a9e3', endColorstr='#ff72D3F3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.55);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.55);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.55);
+		  border-radius:5px;
+		  padding:4px;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
